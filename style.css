@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@700&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Karla', sans-serif;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: hsl(204, 43%, 93%);
+}
+.wrapper{
+    width: 45%;
+    background-color: white;
+    border-radius: 16px;
+}
+.deux{
+    display: flex;
+}
+.seul{
+    padding: 5%;
+}
+.d{
+    padding-left: 6%;
+    width: 50%;
+    background-color: hsl(179, 39%, 56%);
+    border-radius: 0px 0px 16px;
+}
+.g{
+    padding-left: 6%;
+    width: 50%;
+    background-color: hsl(179, 62%, 43%);
+    border-radius: 0px 0px 0px 16px;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+}
+.meme{
+    color: hsl(204, 43%, 93%);
+}
+button{
+    cursor: pointer;
+    background-color: hsl(71, 73%, 54%);
+    border: none;
+    width: 90%;
+    height: 40px;
+    border-radius: 12px;
+}
+.df{
+    display: flex;
+}
+#col{
+    color: hsl(179, 62%, 43%);
+}
+#cole{
+    color: hsl(71, 73%, 54%);
+}
+@media screen and (max-width: 425px) {
+    body{
+        height: auto;
+    }
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+    .deux{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+    .d{
+        width: 100%;
+        border-radius: 0px 0px 0px 0px;
+    }
+    .g{
+        width: 100%;
+        border-radius: 0px 0px 0px 0px;
+    }
+    footer{
+        position: static;
+    }
+    button{
+        margin-bottom: 8%;
+    }
+}
